@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "indexing-settings",
+      "type": "searchengine.config.SitesList",
+      "sourceType": "searchengine.config.SitesList"
+    }
+  ],
+  "properties": [
+    {
+      "name": "indexing-settings.referrer",
+      "type": "java.lang.String",
+      "sourceType": "searchengine.config.SitesList"
+    },
+    {
+      "name": "indexing-settings.sites",
+      "type": "java.util.List<searchengine.config.Site>",
+      "sourceType": "searchengine.config.SitesList"
+    },
+    {
+      "name": "indexing-settings.user-agent",
+      "type": "java.lang.String",
+      "sourceType": "searchengine.config.SitesList"
+    }
+  ],
+  "hints": []
+}
